@@ -1,0 +1,120 @@
+body {
+    background-image: url("images/back.jpg");
+    background-size: 100%;
+    
+}
+
+#gameName {
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-size: 90px;
+    font-weight: bold;
+    border: none;
+    margin: 0;
+    padding-bottom: 80px;
+    padding-left: 200px;
+    
+    
+}
+
+#main {
+    margin: 0;
+}
+
+#secWord {
+    font-style: italic;
+    color: orangered;
+    
+
+}
+
+#addingImg {
+    /* border: 2px solid white; */
+    height: 400px;
+    width: 1450px;
+    align-content: center;
+    margin: auto;
+
+}
+
+#total {
+    color: white;
+    float: right;
+    font-size: 70px;
+    padding-right: 115px;
+    position: relative;
+    margin: 0;
+    clear: right;
+    padding-top: 20px;
+    
+    
+
+}
+#totalMsg {
+    color: white;
+    float: right;
+    font-size: 58px;
+    padding: 52px 70px 0 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    margin: 0;
+    
+}
+
+#massage{
+    
+    width: 800px;
+    margin: auto;
+    height: 70px;
+    font-size: 58px;
+    text-align: center;
+    color: blue;
+    
+    border-radius: 50px;
+    
+}
+
+#buttons {
+    margin: auto;
+    width: 900px;
+}
+
+#genarate {
+    font-size: 50px;
+    text-align: center;
+    margin-left: 250px;
+    
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+
+    
+}
+
+#restart {
+    font-size: 50px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: none;
+
+}
+
+#genarate:hover, #restart:hover {
+    background-color: red;
+    color: black;
+    
+}
+
+img {
+    margin-right:10px ;
+    border-radius: 20px;
+}
